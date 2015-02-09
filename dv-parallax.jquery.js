@@ -27,7 +27,6 @@
 
             // do some math
             var parallax = ($(window).scrollTop() - element.offset().top);
-            console.log(element.offset().top);
             var offset = (parallax * (speed / 10));
 
             // set the offset
